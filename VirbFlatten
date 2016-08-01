@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Run from the DCIM folder of a Garmin Virb to flatten the file structure
+find . -iname "*.jpg" | xargs rename "_VIRB/VIRB" "Virb"
